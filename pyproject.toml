@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "spotify-data-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["Luciano Filho <lvgalvaofilho@gmail.com>"]
+readme = "README.md"
+packages = [{include = "spotify_data_pipeline"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+spotipy = "^2.23.0"
+boto3 = "^1.26.137"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
